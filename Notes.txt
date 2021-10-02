@@ -1,0 +1,8 @@
+npm install -g expo-cli
+expo init myapp
+touch Notes.txt
+npm install @react-navigation/native
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+//como nos vamos a mover entre lñas paginas
+npm install @react-navigation/stack
+expo start
